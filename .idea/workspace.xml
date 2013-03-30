@@ -4,7 +4,7 @@
     <list default="true" id="18d983c3-de1e-4fa5-a5a4-aa69b1366838" name="Default" comment="Iniciando" />
     <ignored path="Polls.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/settings.py" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364589078533" ignored="false" />
+    <file path="/settings.py" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364649824527" ignored="false" />
     <file path="/manage.py" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364334273538" ignored="false" />
     <file path="/Django Console" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364349693171" ignored="false" />
     <file path="/admin.py" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364588649730" ignored="false" />
@@ -24,6 +24,7 @@
     <file path="/Python Console" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364600655303" ignored="false" />
     <file path="/poll_extras.py" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364605001248" ignored="false" />
     <file path="/Dummy.txt" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364649373736" ignored="false" />
+    <file path="/README.rst" changelist="18d983c3-de1e-4fa5-a5a4-aa69b1366838" time="1364650642707" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +46,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls2/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="47" selection-start="708" selection-end="708" vertical-scroll-proportion="0.4528302">
+            <state line="20" column="47" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Polls/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="13" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rst" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="24" selection-start="263" selection-end="263" vertical-scroll-proportion="0.254717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls2/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/polls2/templates/base.html" />
         <option value="$PROJECT_DIR$/Polls/urls.py" />
@@ -86,13 +113,14 @@
         <option value="$PROJECT_DIR$/templates/admin/polls2/admin_app_name.html" />
         <option value="$PROJECT_DIR$/Polls/app_label_renamer.py" />
         <option value="$PROJECT_DIR$/polls2/admin.py" />
-        <option value="$PROJECT_DIR$/Polls/settings.py" />
         <option value="$PROJECT_DIR$/polls2/models.py" />
         <option value="$PROJECT_DIR$/polls2/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/polls2/views.py" />
         <option value="$PROJECT_DIR$/static/css/styles.css" />
         <option value="$PROJECT_DIR$/polls2/templatetags/poll_extras.py" />
         <option value="$PROJECT_DIR$/polls2/templates/results.html" />
+        <option value="$PROJECT_DIR$/Polls/settings.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
   </component>
@@ -217,7 +245,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="polls2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polls2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templatetags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,6 +331,9 @@
       <recent name="$PROJECT_DIR$/polls2/templates" />
       <recent name="$PROJECT_DIR$/polls2/templates/admin" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="LAST_HOST" value="http://127.0.0.1:8000/" />
   </component>
   <component name="RunManager" selected="Django server.Polls">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -437,8 +514,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="952" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.67026377" order="3" side_tool="false" content_ui="tabs" />
@@ -447,7 +525,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932693" sideWeight="0.89534885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.89534885" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -543,7 +621,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/polls2/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="47" selection-start="708" selection-end="708" vertical-scroll-proportion="0.4528302">
+        <state line="20" column="47" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polls/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls2/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="263" selection-end="263" vertical-scroll-proportion="0.254717">
           <folding />
         </state>
       </provider>
