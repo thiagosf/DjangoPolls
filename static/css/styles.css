@@ -1,0 +1,11 @@
+body { font-family: 'Noto Sans UI',Arial; color: #333; background: #eee; }
+p { color: #009900; }
+#page { background: #fff; padding: 20px; margin: 40px; box-shadow: #999 2px 2px 5px; border-radius: 5px; }
+#page h1 { margin: 0 0 20px 0; font-weight: 700; border-bottom: 1px solid #ddd; padding-bottom: 20px; letter-spacing: -1px; }
+#page header { margin: 0 0 20px 0; }
+#page header h2 { margin: 0; font-weight: normal; letter-spacing: -1px; }
+#page header h2 a { color: #009900; }
+#page footer { margin: 20px 0 0 0; clear: both; border-top: 1px solid #ddd; padding-top: 10px; }
+#page footer p { margin:0; color: #777; }
+label { transition:all 0.2s; padding: 5px; border-radius: 2px; }
+label:hover { background: #d0e9c6; color:#333; }

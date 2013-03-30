@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ poll.question }}</h1>
+
+    {% if error_message %}
+        <div class="alert alert-error">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>{{ error_message }}</strong>
+        </div>
+    {% endif %}
+
+    <form action="{% url 'polls2:vote' poll.id %}" method="post" class="form-horizontal">
+        <div class="control-group">
+            {% csrf_token %}
+            {% for choice in poll.choice_set.all %}
+                <label class="radio" for="choice{{ forloop.counter }}">
+                    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+                    {{ choice.choice_text }}
+                </label>
+            {% endfor %}
+        </div>
+        <button class="btn btn-large btn-primary" type="submit"><i class="icon icon-plus"></i> Vote</button>
+    </form>
+{% endblock %}

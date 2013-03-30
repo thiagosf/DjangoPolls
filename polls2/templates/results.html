@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load poll_extras %}
+
+{% block content %}
+    <h1>{{ poll.question }}</h1>
+    <div class="well">Total de <strong>{{ total_votes }}</strong> voto(s) {{ now }}</div>
+    <ul>
+        {% for choice in poll.choice_set.all %}
+            <li>
+                {{ choice.choice_text }} -- {{ choice.votes }} voto{{ choice.votes|pluralize }} - {{ choice.votes|calculate:total_votes }}%
+                <div class="progress {{ choice.votes|get_class_progress:total_votes }} progress-striped active">
+                    <div class="bar" style="width: {{ choice.votes|calculate:total_votes }}%"></div>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <p>
+        <a href="{% url 'polls2:detail' poll.id %}" class="btn btn-large btn-warning">{{ _("Quer votar novamente?") }}</a>
+    </p>
+{% endblock %}
