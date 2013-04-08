@@ -151,6 +151,8 @@ INSTALLED_APPS = (
 
     'galleries',
 
+    'django_cleanup',
+
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
 )
