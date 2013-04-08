@@ -8,11 +8,11 @@ from polls2.models import Poll, Choice
 def index(request):
     latest_poll_list = Poll.objects.all().order_by('-pub_date')[:5]
     context = {'latest_poll_list': latest_poll_list}
-    return render(request, 'index.html', context)
+    return render(request, 'polls/index.html', context)
 
 def detail(request, poll_id):
     poll = get_object_or_404(Poll, pk=poll_id)
-    return render(request, 'detail.html', {'poll': poll})
+    return render(request, 'polls/detail.html', {'poll': poll})
 
 def results(request, poll_id):
     poll = get_object_or_404(Poll, pk=poll_id)
@@ -25,7 +25,7 @@ def results(request, poll_id):
         vote_percentage = int(vote*100.0/total_votes)
         choice.percentage = vote_percentage
 
-    return render(request, 'results.html', {'poll': poll, 'total_votes': total_votes})
+    return render(request, 'polls/results.html', {'poll': poll, 'total_votes': total_votes})
 
 def vote(request, poll_id):
     p = get_object_or_404(Poll, pk=poll_id)
@@ -33,7 +33,7 @@ def vote(request, poll_id):
         selected_choice = p.choice_set.get(pk=request.POST['choice'])
     except (KeyError, Choice.DoesNotExist):
         # Redisplay the poll voting form.
-        return render(request, 'detail.html', {
+        return render(request, 'polls/detail.html', {
             'poll': p,
             'error_message': "Selecione uma alternativa para computar seu voto!",
             })

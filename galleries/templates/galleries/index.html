@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Home das galerias</h1>
+    {% if galleries %}
+        {% for gallery in galleries %}
+            <div>
+                <p>
+                    <a href="{% url 'galleries:detail' gallery.id %}"><img src="{{ gallery.image.url }}" width="50" /></a>
+                    <a href="{% url 'galleries:detail' gallery.id %}">{{ gallery.title }}</a>
+                </p>
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

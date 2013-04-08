@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load galleries_extras %}
+
+{% block content %}
+    <h1>{{ gallery.title }}</h1>
+    <p>w
+        <img src="{{ gallery.image.url }}" alt="" width="500" />
+    </p>
+    <p><a href="{% url 'galleries:index' %}">Voltar</a></p>
+{% endblock %}
